@@ -24,7 +24,7 @@ window.onload = function() {
     return element;
   };
   let excuseGen = document.querySelector("#excuse");
-  console.log(excuseGen);
+
   excuseGen.innerHTML =
     getRandomElemnt(who) +
     " " +
